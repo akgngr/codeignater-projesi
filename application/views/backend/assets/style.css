@@ -1,0 +1,56 @@
+header, main, footer {
+    padding-left: 240px;
+}
+
+@media only screen and (max-width : 992px) {
+    header, main, footer {
+        padding-left: 0;
+    }
+}
+.text-muted{
+    color: #90a4ae!important;
+}
+.user-img{
+    width: 40px;
+    margin-top: 5%;
+}
+
+.nav-baslik{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 70%;
+}
+.nav{
+    background: linear-gradient(to right, #0178bc 0%, #00bdda 100%);
+}
+nav .collapsible-header{
+    padding: 0 32px!important;
+}
+.nav ul.right li{
+    width: 64px;
+}
+.nav ul.right li a{
+    color: #fff;
+}
+.dropdown-content li{
+    width: 100%!important;
+}
+.dropdown-content li a{
+    color: rgba(0, 0, 0, 0.87) !important;
+}
+.cikis{
+    padding-right: 0;
+    margin-right: 0!important;
+}
+.sidenav{
+    width: 240px!important;
+}
+.sidenav .collapsible-body li a, .sidenav.fixed .collapsible-body li a {
+    font-weight: 400;
+    padding: 0 0 0 50px;
+}
+.dropdown-content{
+    top: 0;
+}
